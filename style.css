@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
 body{
     background-color: #ddd;
     margin: 0;
-    font-family:"Open Sans", sans-serif;
+    font-family:"Roboto", sans-serif;
 }
 
 .nav{
@@ -60,10 +60,11 @@ border-bottom: 2px solid #e74c3c;
 .opennav{
     color: #ddd;
     float: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     margin-left: 10px;
     display: none;
+    line-height: 40px;
     
 }
 
@@ -97,7 +98,7 @@ border-bottom: 2px solid #e74c3c;
 
 .swiper-container {
   width: 100%;
-  height: 70vh;
+  height: 320px;
   float: left;
   
 }
@@ -106,7 +107,7 @@ border-bottom: 2px solid #e74c3c;
 
 .background-main{
     width: 100%;
-    height: 70vh;
+    height: 320px;
     background-color: #fff;
     float: left;
     
@@ -135,26 +136,7 @@ border-bottom: 2px solid #e74c3c;
     font-size: 1.8rem;
     text-align: center;
 }
-.btn-cover{
-  width: 100%;
-}
-button{
-    cursor: pointer;
-    margin-top: 22px;
-    padding: 3px 15px;
-    border-radius: 8px;
-    background-color: #e74c3c;
-    border: none;
-    color:#fff;
-    font-size: 1rem;
-    margin-left: 45%;
-    line-height: 35px;
 
-}
-button span{
-    color: #fff;
-    font-size: 2rem;
-}
 
 
 
@@ -172,7 +154,7 @@ button span{
     line-height: 40px;
 }
 .product{
-    height: 205px;
+    height: 200px;
     width: 15%;
     margin-left: 13px;
     float: left;
@@ -193,7 +175,7 @@ button span{
     color: rgba(0, 0, 0, 0.7);
 }
 .product1{
-    height: 205px;
+    height: 200px;
     width: 15%;
     margin-left: 13px;
     float: left;
@@ -213,7 +195,7 @@ button span{
 
 
 .product2{
-    height: 205px;
+    height: 200px;
     width: 15%;
     margin-left: 13px;
     float: left;
@@ -232,7 +214,7 @@ button span{
 }
 
 .step1{
-    height: 390px;
+    height: 380px;
     width: 32%;
     float: left;
     background-color: #d3d3d3;
@@ -279,7 +261,7 @@ button span{
 
 
 .step2{
-    height: 390px;
+    height: 380px;
     width: 32%;
     float: left;
     background-color: #d3d3d3;
@@ -312,7 +294,7 @@ button span{
 
 
 .step3{
-  height: 390px;
+  height: 380px;
   width: 32%;
   float: left;
   background-color: #d3d3d3;
@@ -342,9 +324,94 @@ button span{
  
 }
 
+#see-more{
+  width: 40%;
+  margin-top: 5px;
+  background-color: #e74c3c; 
+  color:#fff;
+  margin-left: 30%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+#see_more, #seemore{
+  width: 40%;
+  margin-top: 5px;
+  background-color: #e74c3c; 
+  color:#fff;
+  margin-left: 30%;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
 
 
 
+.modal{
+  background:rgba(0,0,0,.8);
+  width:100%;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:10;
+  opacity:0;
+  visibility:hidden;
+  transition:all .5s;
+  }
+  .modal_content{
+   width:90%;
+   height:70%;
+   background:#fff;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   padding:2em;
+   border-radius:10px;
+   visibility:hidden;
+   transition:all .5s;
+   overflow-y: scroll;
+
+   
+  }
+  #modal:target{
+  opacity:1;
+  visibility:visible;
+  }
+  #modal:target .modal_content{
+  opacity:1;
+  visibility:visible;
+  }
+  
+  .modal_close{
+  color: #e74c3c;
+  font-size:2em;
+  position:absolute;
+  top:.3em;
+  right:1em;
+  }
+  
+ 
+  .modal-open a{
+    text-decoration: none;
+    color: #fff;
+    }
+  #hidden-step1, #hidden-step2,#hidden-step3{
+  height: 440px;
+  background-color: #fff;
+  }
+  
+  
+  .highproduct-img-hidden{
+      height:80px; width:90px; margin-left: 4px;
+  
+  }
+  
+  
 
 
 
@@ -372,10 +439,10 @@ button span{
     .opennav{display: block;}
 
 
-    .swiper-container {height: 50vh;}
-    .background-main{height: 50vh;}
+   
+    .background-main{height: 250px;}
     .background-main-text{height: 340px; width: 90%;}
-    .background-main-text h1{font-size: 1.2rem; margin-top: 3rem;}
+    .background-main-text h1{font-size: 1.2rem; margin-top: 2.7rem;}
     .background-main-text h2{font-size: 1rem;}
     button{margin-left: 28%; padding: 2px 8px;}
     
@@ -391,8 +458,12 @@ button span{
 
     .step1,.step2,.step3{width: 100%; text-align: center; margin-left: 2px;}
 
+    .highproduct,.highproduct1,.highproduct2{height: 142px;}
     .highproduct-img{ height:80px; width:90px; margin-left: 4px;}
     .swiper-container { padding-bottom: 10px; }
+    .swiper-container {height: 250px;}
+
+    
 
 }
     
