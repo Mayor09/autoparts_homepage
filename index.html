@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <script src="3.2.1jquery.min.js"></script>
 <title>Auto Parts store</title>
 
@@ -53,14 +54,11 @@
   <div class="swiper-wrapper">
     <div class="swiper-slide">
 
-      <div class="background-main">
+      <div class="background-main" style="background-color: #d3d3d3;">
         <div class="background-main-text">
           <h1>Lorem ipsum  eveniet molestiae laboriosam a veniam qui maiores ut cum eaque maxime.</h1>
-          <h2>Lorem ipsum  eveniet molestiae laboriosam a veniam qui.</h2>
+          
       
-          <div class="btn-cover">
-          <button>Purchase now &nbsp; <span>&rarr;</span></button>
-          </div>
         </div>
     </div>
   </div>
@@ -70,7 +68,7 @@
       <div class="background-main" style="background-color: #e74c3c;">
         <div class="background-main-text">
           <h1 style="color: #fff;">Lorem ipsum  eveniet molestiae laboriosam a veniam qui maiores ut cum eaque maxime.</h1>
-          <h2 style="color: #fff;">Lorem ipsum  eveniet molestiae laboriosam a veniam qui.</h2>
+          
       
           
         </div>
@@ -82,11 +80,9 @@
       <div class="background-main">
         <div class="background-main-text">
           <h1>Lorem ipsum  eveniet molestiae laboriosam a veniam qui maiores ut cum eaque maxime.</h1>
-          <h2>Lorem ipsum  eveniet molestiae laboriosam a veniam qui.</h2>
+          
       
-          <div class="btn-cover">
-          <button>Learn more &nbsp; <span>&rarr;</span></button>
-          </div>
+         
         </div>
     </div>
   </div>
@@ -97,7 +93,6 @@
 </div>
 </main>
 
-<div class="row-title">Product Categories</div>
 
 <div class="step1">
   <div class="high-quality">Low affordable  Price</div>
@@ -133,7 +128,7 @@
 <span>&#8358; 3000</span>
 </div>
 
-<div class="high-quality" style="margin-top: 5px;background-color: #e74c3c; color:#fff">See more</div>
+<div class="high-quality2 modal-open" id="seemore"><a href="#modal">See more</a></div>
 </div>
 
 
@@ -171,7 +166,7 @@
 <span>&#8358; 3000</span>
 </div>
 
-<div class="high-quality1" style="margin-top: 5px;background-color: #e74c3c; color:#fff">See more</div>
+<div class="high-quality2 modal-open" id="seemore"><a href="#modal">See more</a></div>
 </div>
 
 
@@ -210,9 +205,173 @@
 <span>&#8358; 3000</span>
 </div>
 
-<div class="high-quality2" style="margin-top: 5px;background-color: #e74c3c; color:#fff">See more</div>
+<div class="high-quality2 modal-open" id="see-more"><a href="#modal">See more</a></div>
  
 </div>
+
+
+
+
+
+<div class="modal" id="modal">
+  
+ <div class="modal_content">
+ <a href="#" class="modal_close">&times;</a>
+ <div class="step1" id="hidden-step1">
+    <div class="highproduct" style="margin-left: 0;">
+     <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+     <span>Lorem ipsum </span><br>
+     <span>&#8358; 1000</span>  
+  </div>
+
+  <div class="highproduct">
+   <img src="images/engineblock001.jpg" alt="piston" class="highproduct-img-hidden">
+   <span>Lorem ipsum </span><br>
+   <span>&#8358; 4000</span>
+  </div>
+  <div class="highproduct">
+   <img src="images/shoebrake002.jpg" alt="piston"  class="highproduct-img-hidden">
+   <span>Lorem ipsum </span><br>
+   <span>&#8358; 2000</span>
+  </div>
+  
+  <div class="highproduct" style="margin-left: 0;">
+   <img src="images/shoebrake005.jpg" alt="piston" class="highproduct-img-hidden">
+   <span>Lorem ipsum </span><br>
+   <span>&#8358; 2000</span>
+  </div>
+  <div class="highproduct">
+  <img src="images/setsprocket001.JPG" alt="piston" class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 7000</span>
+  </div>
+  <div class="highproduct">
+  <img src="images/tube002.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 3000</span>
+  </div>
+
+  <div class="highproduct" style="margin-left: 0;">
+    <img src="images/brakepad002.jpg" alt="piston" class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 2000</span>
+   </div>
+   <div class="highproduct">
+   <img src="images/engineblock002.jpg" alt="piston" class="highproduct-img-hidden">
+   <span>Lorem ipsum </span><br>
+   <span>&#8358; 7000</span>
+   </div>
+   <div class="highproduct">
+   <img src="images/tube002.jpg" alt="piston"  class="highproduct-img-hidden">
+   <span>Lorem ipsum </span><br>
+   <span>&#8358; 3000</span>
+   </div>
+
+  </div>
+  
+  <div class="step2" id="hidden-step2">
+   <div class="highproduct1" style="margin-left: 0;">
+    <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 2000</span>
+  </div>
+  <div class="highproduct1">
+  <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 7000</span>
+  </div>
+  <div class="highproduct1">
+  <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 3000</span>
+  </div>
+  
+  <div class="highproduct1" style="margin-left: 0;">
+  <img src="images/tube002.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 2000</span>
+  </div>
+  <div class="highproduct1">
+  <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 7000</span>
+  </div>
+  <div class="highproduct1">
+  <img src="images/tube001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 3000</span>
+  </div>
+
+  <div class="highproduct1" style="margin-left: 0;">
+    <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 2000</span>
+    </div>
+    <div class="highproduct1">
+    <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 7000</span>
+    </div>
+    <div class="highproduct1">
+    <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 3000</span>
+    </div>
+
+  </div>
+  
+  <div class="step3" id="hidden-step3">
+   <div class="highproduct2" style="margin-left: 0;">
+    <img src="images/tube002.jpg" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 2000</span>
+  </div>
+  <div class="highproduct2">
+  <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 7000</span>
+  </div>
+  <div class="highproduct2">
+  <img src="images/engineblock002.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 3000</span>
+  </div>
+  
+  <div class="highproduct2" style="margin-left: 0;">
+  <img src="images/tube001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 2000</span>
+  </div>
+  <div class="highproduct2">
+  <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 7000</span>
+  </div>
+  <div class="highproduct2">
+  <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+  <span>Lorem ipsum </span><br>
+  <span>&#8358; 3000</span>
+  </div>
+
+  <div class="highproduct2" style="margin-left: 0;">
+    <img src="images/tube002.jpg" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 2000</span>
+    </div>
+    <div class="highproduct2">
+    <img src="images/engineblock001.jpg" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 7000</span>
+    </div>
+    <div class="highproduct2">
+    <img src="images/hipo_clutch.png" alt="piston"  class="highproduct-img-hidden">
+    <span>Lorem ipsum </span><br>
+    <span>&#8358; 3000</span>
+    </div>
+
+   </div>
+  </div>
+  </div>
 
 
 
