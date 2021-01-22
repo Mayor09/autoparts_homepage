@@ -62,7 +62,7 @@ border-bottom: 2px solid #e74c3c;
     float: left;
     font-size: 1.5rem;
     cursor: pointer;
-    margin-left: 16px;
+    margin-left: 10px;
     display: none;
     line-height: 40px;
     
@@ -461,7 +461,7 @@ border-bottom: 2px solid #e74c3c;
     .highproduct,.highproduct1,.highproduct2{height: 142px;}
     .highproduct-img{ height:80px; width:90px; margin-left: 4px;}
     .swiper-container { padding-bottom: 10px; }
-    .swiper-container {height: 250px;}
+    .swiper-container {height: 200px;}
 
     
 
@@ -469,20 +469,21 @@ border-bottom: 2px solid #e74c3c;
     
 
 /* Tablet view*/
-@media screen and (min-width: 601px) and (max-width: 1200px){
+@media screen and (min-width: 701px) and (max-width: 1200px){
  
-  .background-main-text h1{ margin-top: 10rem;}
-  .background-main-image img {width: 380px; top: 30rem; left: 68px;}
-  button{margin-left: 40%;}
-  .product{width: 30%;}
+  .background-main-text h1{font-size: 1.8rem;}
+    .background-main-text h2{font-size: 1.5rem;}
+  
+  
+  .product,.product1,.product2{width: 31%;}
     .product img{width: 180px; height: 150px;}
-    .product1{width: 30%;}
     .product1 img{width: 180px; height: 150px;}
-    .product2{width: 30%;}
     .product2 img{width: 180px; height: 150px;}
 
-    .step1,.step2, .step3{width: 60%; margin-left: 20%;}
-    .highproduct-img{ height:90px; width:100px; margin-left: 4px;}
+    .step1,.step2, .step3{width: 90%; margin-left: 8%;}
+    .highproduct-img{ height:100px; width:110px; margin-left: 20px; display: block;}
+    
+    
     
     
   
