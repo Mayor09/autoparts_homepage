@@ -1,12 +1,15 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-html,body{
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
     background-color: #ddd;
-    font-family:"Roboto", sans-serif;
-    width: 100%;
-    margin: 0;
+    font-family:"lato", sans-serif;
+    
+    
 }
 
 .nav{
@@ -26,7 +29,7 @@ html,body{
 .nav-left{
     width: 60%;
     height: 50px;
-    background-color:  #111;
+    background-color: #111;
     float: right;
 }
 .nav-left a{
@@ -144,7 +147,7 @@ border-bottom: 2px solid #e74c3c;
     height: 40px;
     float: left;
     border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
     text-align: center;
     color: #fff;
     font-weight: normal;
@@ -456,11 +459,11 @@ border-bottom: 2px solid #e74c3c;
     
     
     .product{width: 43%;}
-    .product img{width: 150px; height: 130px;}
+    .product img{width: 140px; height: 120px;}
     .product1{width: 43%;}
-    .product1 img{width: 150px; height: 130px;}
+    .product1 img{width: 140px; height: 120px;}
     .product2{width: 43%;}
-    .product2 img{width: 150px; height: 130px;}
+    .product2 img{width: 140px; height: 120px;}
     
     
     
@@ -494,7 +497,7 @@ border-bottom: 2px solid #e74c3c;
     
     
   
-  .product,.product1,.product2{width: 31%;}
+  .product,.product1,.product2{width: 30%;}
     .product img{width: 180px; height: 150px;}
     .product1 img{width: 180px; height: 150px;}
     .product2 img{width: 180px; height: 150px;}
@@ -504,5 +507,11 @@ border-bottom: 2px solid #e74c3c;
 
     .step1 .highproduct, .step2 .highproduct1, .step3 .highproduct2{ border-radius: 10px;}
     .step1 .high-quality,.step2 .high-quality1, .step3 .high-quality2{border-radius: 0; width: 95.6%; margin-left: 8px;}
+
+    
+    
+    
+    
+    
   
 }
