@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="theme-color" content="#111">
+<meta name="description" content="Best Auto parts marketing platform in Nigeria">
+<link rel="stylesheet" href="style.css">
+
+<script src="3.2.1jquery.min.js"></script>
+
+
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+          
+          <div class="nav-left">
+            <a href="#">About Us</a>
+            <a href="#">Our Solution</a>
+            <a href="#">Our Approach</a>
+            <a href="#">FAQ</a>
+            <a href="#">New products</a>
+      
+          </div>
+      
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Solution</a>
+            <a href="#">Our Approach</a>
+            <a href="#">FAQ</a>
+            <a href="#">New products</a>
+          </div>
+          <span onclick="openNav()" class="opennav">&#9776;</span>
+        
+          <div class="nav-right">Company</div>
+      
+          <span style="float:  right;line-height: 40px;margin-right: 40px; color: #d3d3d3;">Hello, Mayor &nbsp; <i class="fa fa-shopping-cart"></i> </span>
+        </div>
+      
+      
+      </header>
+      
+      <div class="row-title"style="border-radius:0;margin:0;background:#fff;color:#111;">
+        <span style="float: left;margin-left: 4px;"><button onclick="javascript:window.history.back()">Go back</button></span>
+        Cart
+      </div>
+      <div class="row-title"style="border-radius:0;margin:0;background:#ddd;color:#111">1 item(s) in Cart</div>
+       <div class="row-title"style="border-radius:10px;background:#fff;color:#111;width:70%;margin-left:17%;text-align:left;padding:3px">
+        Item 1<span style="float: right;"><i class="fa fa-trash"></i></span></div>
+
+        <div class="buyall">
+          <a href="#modale">
+            BUY ALL
+            </a>
+          
+        </div>
+      
+
+        <div class="modal" id="modale">
+  
+          <div class="details">
+          <a href="#" class="modal_close"style="text-decoration:none">&times;</a>
+          <form method="POST">
+          <p style="text-align: center;margin-top: 10px;">Give us a few details. so we can contact you</p><br><br>
+          <label>Name</label>&nbsp;<input type="text" placeholder="e.g Okeke Peter" required/><br>
+          <label>Phone</label><input type="number" placeholder="e.g 080111222111" required/><br>
+          <label>State</label>&nbsp;&nbsp;<input type="text" placeholder="e.g Anambra" required/><br>
+          <input type="submit" value="Continue">
+          </div>
+          </div>
+        </div>
+
+        <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
