@@ -571,15 +571,7 @@ border-bottom: 2px solid #e74c3c;
     }
 
     input{width: 70%;}
-    .buy{
-      
-      line-height: 40px;
-      cursor: pointer;
-      border-radius: 10px;
-      left: 5.8rem;
-      top: 16rem;
-      position: relative;
-    }
+    .buy{left: 5.8rem;top: 18rem; }
     
 
 }
